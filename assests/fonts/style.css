@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?i2zxhg');
-  src:  url('fonts/icomoon.eot?i2zxhg#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?i2zxhg') format('truetype'),
-    url('fonts/icomoon.woff?i2zxhg') format('woff'),
-    url('fonts/icomoon.svg?i2zxhg#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?9vyqsj');
+  src:  url('fonts/icomoon.eot?9vyqsj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9vyqsj') format('truetype'),
+    url('fonts/icomoon.woff?9vyqsj') format('woff'),
+    url('fonts/icomoon.svg?9vyqsj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -69,6 +69,9 @@
 }
 .icon-battery:before {
   content: "\e902";
+}
+.icon-arrow-up:before {
+  content: "\e912";
 }
 .icon-battery-charging:before {
   content: "\e903";
