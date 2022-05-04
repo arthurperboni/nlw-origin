@@ -459,7 +459,6 @@ nav.show div.icon-close{
   object-fit: cover;
   clip-path: circle();
   margin-right: 0.5rem;
-  margin-left: 0;
 }
 
 /* swiper */
