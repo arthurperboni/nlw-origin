@@ -597,7 +597,7 @@ footer .social a:hover{
 
 
 /* ####################    XL devices: 1200+ #####################> */
-@media (min-width: 1200px) {
+@media (min-width: 950px) {
 
   /* Reusable classes */
   
@@ -757,7 +757,7 @@ footer .social a:hover{
 
 
 /* ################ XXL devices: 1900+ ######## */
-@media (min-width: 1900px){
+@media (min-width: 1500px){
 
 .container{
   max-width: 1900px;
@@ -826,21 +826,37 @@ main{
 
 /* Home */
 
-#home{
+/* #home{
   margin: 0 2.5rem;
-}
+} */
 
 #home .container{
   grid-auto-flow: column;
   justify-content: space-between;
-  margin: 0 auto;
-
+  margin: 0 2.5rem;
 }
 
+/* #home .image::before{
+
+max-width: 40%;
+left: 38rem;
+} */
+
 #home .image{
+  align-items: left;
   order: 1;
-  width: 50%;
-  height: auto;
+  width: 70%;
+  height: auto; 
+}
+
+#home .image img{
+  right:0;
+  left: 40%;
+}
+
+#home .image::before{
+left: 45%;
+
 }
 
 #home .text{
