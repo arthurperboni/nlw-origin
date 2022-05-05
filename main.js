@@ -35,7 +35,13 @@ const swiper = new Swiper('.swiper-container', {
     el: '.swiper-pagination'
   },
   mousewheel: true,
-  keyboard: true
+  keyboard: true,
+  breakpoints: {
+    767: {
+      slidesPerView: 2,
+      setWrapperSize: true
+    }
+  }
 })
 
 //Scroll Reveal (Mostrar Elementos ao usar o Scroll)
@@ -48,7 +54,7 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-  '#home .image, #home .text, #about .image, #about .text, #services .header, #services .cards, #testimonials header, #testimonials .testimonials, #contact .text, #contact .links, footer .brand, footer .social',
+  '#home .image, #home .text, #about .image, #about .text, #services .header,#services .title, #services .subtitle, #services .cards, #testimonials header, #testimonials .testimonials, #contact .text, #contact .links, footer .brand, footer .social',
   { interval: 100 }
 )
 
