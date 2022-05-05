@@ -33,6 +33,10 @@ img{
   --text-color-heavy: hsl(0, 0%, 0%);
   --body-color: hsl(0, 0%, 10%);
   --scroll-color: hsl(0, 0%, 5%);
+
+  /* Fonts */
+--title-font-size: 1.85rem;
+
 }
 
 /* BASE */
@@ -51,7 +55,7 @@ body {
 }
 
 .title{
-  font: 700 1.875rem "Poppins", sans-serif;
+  font: 700 var(--title-font-size) "Poppins", sans-serif;
   color:var(--text-color);
   -webkit-font-smoothing: auto;
 
@@ -318,6 +322,7 @@ nav.show div.icon-close{
 
 #home .image img{
   position:relative;
+  left: 0;
   right: 2.93rem;
 }
 
@@ -570,3 +575,18 @@ footer .social a:hover{
   opacity: 1;
   transform: translateY(0);
 }
+
+
+
+/* #########RESPONSIVO########### */
+/* Pontos de quebra */
+/* XL devices: 1200 > */
+/* L devices: 1023 > */
+/* L2 devices: 992> */
+@media (min-width: 992px) {
+  :root{
+    --title-font-size: 2.2rem;
+  }
+}
+/* M devices (Tablets): 767> */
+
