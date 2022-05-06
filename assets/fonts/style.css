@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9vyqsj');
-  src:  url('fonts/icomoon.eot?9vyqsj#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9vyqsj') format('truetype'),
-    url('fonts/icomoon.woff?9vyqsj') format('woff'),
-    url('fonts/icomoon.svg?9vyqsj#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?zek3zd');
+  src:  url('fonts/icomoon.eot?zek3zd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?zek3zd') format('truetype'),
+    url('fonts/icomoon.woff?zek3zd') format('woff'),
+    url('fonts/icomoon.svg?zek3zd#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-electric_scooter:before {
+  content: "\e915";
+}
+.icon-arrow-up:before {
+  content: "\e912";
+}
+.icon-battery-charging:before {
+  content: "\e903";
+}
+.icon-battery1:before {
+  content: "\e904";
+}
+.icon-tools:before {
+  content: "\e913";
+}
+.icon-options:before {
+  content: "\e913";
+}
+.icon-repair:before {
+  content: "\e913";
+}
+.icon-uber:before {
+  content: "\e901";
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-cosmetic:before {
+  content: "\e907";
+}
 .icon-bitcoin:before {
   content: "\e900";
 }
@@ -67,20 +97,20 @@
 .icon-youtube:before {
   content: "\e910";
 }
+.icon-recycle:before {
+  content: "\e914";
+}
 .icon-battery:before {
   content: "\e902";
-}
-.icon-arrow-up:before {
-  content: "\e912";
-}
-.icon-battery-charging:before {
-  content: "\e903";
 }
 .icon-battery1:before {
   content: "\e904";
 }
 .icon-battery2:before {
   content: "\e905";
+}
+.icon-cart:before {
+  content: "\e93a";
 }
 .icon-leaf:before {
   content: "\e9a4";

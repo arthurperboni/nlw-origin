@@ -7,7 +7,7 @@
     <title>Full Mobility</title>
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="assests/fonts/style.css" />
+    <link rel="stylesheet" href="assets/fonts/style.css" />
 
     <!--Swiper  -->
     <link
@@ -29,7 +29,7 @@
   <body>
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#">Full<span>Mobility</span></a>
+        <a class="logo" href="#"><i class="icon-electric_scooter"></i> Full<span>Mobility</span></a>
         <!-- MENU -->
         <div class="menu">
           <ul class="grid">
@@ -51,9 +51,8 @@
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
-            <img
-              src="assests/pictures/chobby 3000 1.jpeg"
-              alt="Chobby 3000 W"
+            <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()"
+              src="assets/pictures/img1.jpeg" alt="Chobby 3000 W"
             />
           </div>
           <div class="text">
@@ -70,9 +69,8 @@
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
-            <img
-              src="assests/pictures/chobby 3000 2.jpeg"
-              alt="Chobby 3000 W"
+            <img id="img2" onmouseover="setNewImage2()" onmouseout="setOldImage2()"
+            src="assets/pictures/img3.jpeg" alt="Chobby 3000 W"
             />
           </div>
           <div class="text">
@@ -106,50 +104,34 @@
           <header>
             <h2 class="title">Serviços</h2>
             <p class="subtitle">
-              Com mais de 10 anos de experiência em veículos elétricos a
-              <strong>FullMobility</strong> tem os melhores especialistas do
+              Com mais de 5 anos de experiência em veículos elétricos a
+              <strong>FullMobility</strong> conta com os melhores especialistas do
               mercado.
             </p>
           </header>
           <div class="bigcards cards grid">
             <div class="card">
-              <i class="icon-power"></i>
-              <h3 class="title">Aluguel Bateria</h3>
+              <i class="icon-tools"></i>
+              <h3 class="title">Assistência Técnica</h3>
               <p>
-                Manutenções a preço reduzido, garantia da bateria, bem como os
-                diversos contratos exclusivos para veículos elétricos: consulte
-                as informações relacionadas com a compra de um veículo elétrico
+                Equipe treinada.....
               </p>
               <br />
             </div>
             <div class="card">
-              <i class="icon-uber"></i>
-              <h3 class="title">Uber</h3>
+              <i class="icon-electric_scooter"></i>
+              <h3 class="title">Loja</h3>
               <p>
-                Movimento, é o que possibilitamos. É a nossa essência. Corre-nos
-                nas veias. É o que nos faz sair da cama todas as manhãs.
-                Leva-nos a estar sempre a imaginar o que podemos fazer para nos
-                movermos melhor. Por si. Por todos os lugares onde quiser ir.
-                Por todas as coisas que lhe apetece receber. Por todas as formas
-                de ganhar dinheiro. Em todo o mundo. Em tempo real.À incrível
-                velocidade do presente.
+                Venda de Scooters novas.....
+                Melhores preços e condições, venha conferir....
               </p>
               <br />
             </div>
             <div class="card">
-              <i class="icon-bitcoin"></i>
-              <h3 class="title">Banco BTC</h3>
+              <i class="icon-cart"></i>
+              <h3 class="title">Acessórios</h3>
               <p>
-                Bitcoin (símbolo: ₿; abreviado ISO 4217: BTC ou XBT) é uma
-                criptomoeda livre e descentralizada, um dinheiro eletrônico para
-                transações financeiras ponto a ponto (sem intermediários), com
-                primeira citação no artigo descrevendo a implementação em
-                2008,[14] mas apresentado no começo de 2009 na lista de
-                discussão The Cryptography Mailing por um programador ou grupo
-                de programadores sob o pseudônimo Satoshi Nakamoto. Bitcoin é
-                considerada a primeira moeda digital mundial descentralizada,
-                constituindo um sistema econômico alternativo, e responsável
-                pelo ressurgimento do sistema bancário livre.
+                Completa gama de acessórios para você e seu veículo....
               </p>
               <br />
             </div>
@@ -179,7 +161,7 @@
                   </p>
                   <cite>
                     <img
-                      src="assests/pictures/bidi.jpg"
+                      src="assets/pictures/bidi.jpg"
                       alt="foto de Alcebiades"
                     />
                     Alcebiades "ManoBidiTV"
@@ -197,7 +179,7 @@
                   </p>
                   <cite>
                     <img
-                      src="assests/pictures/foto2.jpg"
+                      src="assets/pictures/foto2.jpg"
                       alt="Foto de Renata Soares"
                     />
                     Renata Soares
@@ -214,8 +196,11 @@
                     temporibus possimus soluta in. Soluta, unde id?
                   </p>
                   <cite>
-                    <img src="assests/pictures/foto 3.jpg" alt="Foto de Eddy" />
-                    Eddy
+                    <img 
+                    src="assets/pictures/foto1.jpg" 
+                    alt="Foto de Laura" 
+                    />
+                    Laura Pequeno
                   </cite>
                 </blockquote>
               </div>
@@ -262,7 +247,7 @@
     <footer class="section">
       <div class="container grid">
         <div class="brand">
-          <a class="logo logo-alt" href="#home">Full<span>Mobility</span></a>
+          <a class="logo logo-alt" href="#home"><i class="icon-recycle"></i>Full<span>Mobility</span></a>
           <p>©2022 FullMobility</p>
           <p>Todos os direitos reservados</p>
         </div>

@@ -106,3 +106,19 @@ window.addEventListener('scroll', function () {
   backToTop()
   activateMenuAtCurrentSection()
 })
+
+function setNewImage() {
+  document.getElementById('img1').src = 'assets/pictures/img2.jpeg'
+}
+
+function setOldImage() {
+  document.getElementById('img1').src = 'assets/pictures/img1.jpeg'
+}
+
+function setNewImage2() {
+  document.getElementById('img2').src = 'assets/pictures/img4.jpeg'
+}
+
+function setOldImage2() {
+  document.getElementById('img2').src = 'assets/pictures/img3.jpeg'
+}
