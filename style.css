@@ -581,6 +581,7 @@ footer .brand p{
 }
 
 footer .social a{
+  color: var(--base-color);
   margin-right: 2rem;
   transition: 0.3s;
   display: inline-block;
