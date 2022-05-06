@@ -175,7 +175,7 @@ body {
 
 #header.scroll .logo i{
 
-  color:white;
+  color:var(--base-color);
 
 }
 
@@ -192,7 +192,7 @@ body {
   position: relative;
   left:-0.5rem;
   top:.5rem;
-  color: var(--base-color);
+  color: white;
 
 }
 
@@ -575,8 +575,8 @@ footer .brand p{
   margin-bottom: 0.75rem;
 }
 
-footer i{
-  font-size: 1.5rem;
+#icon-footer{
+  font-size: 2.25rem;
   color: var(--base-color);
 }
 
