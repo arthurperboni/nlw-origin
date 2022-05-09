@@ -179,6 +179,17 @@ body {
 
 }
 
+#header nav a{
+  display: flex;
+  align-items: center;
+
+}
+
+#logo-header{
+  width: 20%;
+  height: auto;
+}
+
 /* LOGO */
 
 .logo{
