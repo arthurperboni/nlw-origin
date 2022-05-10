@@ -348,14 +348,47 @@ nav.show div.icon-close{
   display: flex;
   align-items: center;
 }
-#home .image{ 
-  width: 5%;
-  height: auto;
+
+#home .swiper-button-prev{
+  color:var(--base-color);
 }
 
-/* #photo1{
-  width: 5%;
-} */
+#home .swiper-button-next{
+  color:var(--base-color);
+}
+
+#home .swiper-slide{
+  background-color: var(--footer-color);
+  width: 30rem;
+  height: auto;
+  padding: 4rem 1rem;
+}
+
+/* #################    APAGAR */
+#home.swiper-slide img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+#home .swiper {
+  width: 100%;
+  height: 100%;
+  
+}
+
+#home .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+/* ############################### */
+#home .swiper-pagination-bullet-active{
+  background:var(--base-color);
+}
+
+
+
 
 /* #home .image{
   width: 100%;
@@ -900,7 +933,30 @@ max-width: 40%;
 left: 38rem;
 } */
 
-#home .image{
+#home{
+  margin: 0 0;
+}
+
+#home .video{
+  max-width: 40rem;
+  height: auto;
+}
+
+#home .swiper-slide{
+  background-color: var(--footer-color);
+  height: 40rem;
+  height: auto;
+  /* max-width: 30rem; */
+  padding: 4rem 0rem;
+}
+
+#home .image img{
+  max-width: 40rem;
+  width: 34rem;
+  height: auto;
+}
+
+/* #home .image{
   align-items: left;
   order: 1;
   width: 70%;
@@ -921,7 +977,7 @@ left: 45%;
   order: 0;
   max-width: 48rem;
   text-align: left;
-}
+} */
 
   /* about */
   
