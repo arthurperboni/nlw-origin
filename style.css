@@ -33,6 +33,7 @@ img{
   --text-color-heavy: hsl(0, 0%, 0%);
   --body-color: hsl(0, 0%, 10%);
   --scroll-color: hsl(0, 0%, 5%);
+  --footer-color: hsl(0, 0%, 15%);
 
   /* Fonts */
 --title-font-size: 1.85rem;
@@ -186,7 +187,7 @@ body {
 }
 
 #logo-header{
-  width: 20%;
+  width: 4rem;
   height: auto;
 }
 
@@ -214,17 +215,12 @@ color: var(--base-color);
 }
 
 .logo-alt{
-  margin-left: 1rem;
-  color:var(--body-color);
+  margin-left: 0rem;
+  color:var(--text-color);
 
 }
 
-.logo-alt i{
 
-  position: relative;
-  top:.25rem;
-  left: -.25rem;
-}
 
 .logo-alt span{
   color: var(--base-color);
@@ -347,10 +343,21 @@ nav.show div.icon-close{
 }
 
 #home .container{
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+}
+#home .image{ 
+  width: 5%;
+  height: auto;
 }
 
-#home .image{
+/* #photo1{
+  width: 5%;
+} */
+
+/* #home .image{
   width: 100%;
   height: auto;
   position: relative;
@@ -377,9 +384,9 @@ nav.show div.icon-close{
 #home .image img,
 #home .image::before{
   border-radius: 0.5rem;
-}
+} */
 
-#home .text{
+/* #home .text{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
@@ -391,7 +398,7 @@ nav.show div.icon-close{
 
 #home .text p{
   margin-bottom: 2rem;
-}
+} */
 
 /* ABOUT */
 #about{
@@ -549,6 +556,15 @@ nav.show div.icon-close{
   margin-right: 0.625rem;
 }
 
+#contact .button i{
+  margin-right: 0;
+  font-size: 2rem;
+}
+
+#contact .button{
+  padding: 1rem 1.2rem;
+}
+
 #contact ul.grid{
   gap: 2rem;
 }
@@ -566,7 +582,7 @@ nav.show div.icon-close{
 /* #######FOOTER ########## */
 
 footer{
-  background: var(--text-color);
+  background: var(--footer-color);
 }
 
 footer.section{
@@ -579,7 +595,7 @@ footer .logo{
 }
 
 footer .brand{
-  color: var(--text-color-heavy);
+  color: var(--text-color);
 }
 
 footer .brand p{
