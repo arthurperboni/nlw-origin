@@ -53,13 +53,21 @@ var swiper = new Swiper('.mySwiper', {
   },
   breakpoints: {
     767: {
+      slidesPerView: 1,
+      setWrapperSize: true
+    },
+    1200: {
+      slidesPerView: 1,
+      setWrapperSize: true
+    },
+    1900: {
       slidesPerView: 2,
       setWrapperSize: true
     }
   }
 })
 const tSwiper = new Swiper('.swiper-container', {
-  slidesPerView: 2,
+  slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination'
   },
