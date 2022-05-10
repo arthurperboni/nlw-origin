@@ -363,6 +363,7 @@ nav.show div.icon-close{
   height: auto;
   padding: 4rem 1rem;
   z-index: 0;
+  
 
 }
 
@@ -371,6 +372,7 @@ nav.show div.icon-close{
   display: block;
   object-fit: cover;
   z-index: 1;
+  
 }
 #home .swiper {
   max-width: 30rem;
@@ -775,6 +777,7 @@ footer .social a:hover{
     height: 24.1875rem;
     width: 43rem;
     border-radius: 5rem;
+    box-shadow: 0px 0px 12px rgba(255, 253, 253, 0.685);
   }
   
   #home .image{
@@ -794,6 +797,7 @@ footer .social a:hover{
     max-width: 45rem;
     width: auto;
     height: auto;
+    
   }
 
   #home .swiper-slide{
@@ -803,10 +807,12 @@ footer .social a:hover{
     
     margin-top: 4rem;
     z-index: 0;
+    
   }
   #home .swiper-slide img{
     border-radius: 5rem;
     background-color: var(--footer-color);
+    box-shadow: 0px 0px 12px rgba(255, 253, 253, 0.685);
   }
   
   
@@ -869,6 +875,9 @@ footer .social a:hover{
     font-size: 2.25rem;
   }
 
+  footer .social{
+    font-size: 2.5rem;
+  }
 
 }
 /* ######################## L devices: 1023 ##########################> */
@@ -972,11 +981,15 @@ left: 38rem;
 
 #home{
   margin: 0 0;
+  padding: 5rem 0;
 }
 
+
 #home .video{
-  max-width: 40rem;
-  height: auto;
+  display: flex;
+  height: 19.6875rem;
+  width: 35rem;
+  border-radius: 5rem;
 }
 
 /* #home .swiper-slide{
@@ -988,13 +1001,13 @@ left: 38rem;
 } */
 #home .swiper {
   max-width: 100rem;
-  width: 100rem;
+  width: 60rem;
   height: auto;
 }
 
 #home .image img{
   max-width: 40rem;
-  width: 34rem;
+  width: 35rem;
   height: auto;
 }
 
