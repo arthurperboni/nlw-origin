@@ -12,7 +12,7 @@
     <!--Swiper  -->
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      href="https://unpkg.com/swiper@8/swiper-bundle.css"
     />
 
     <!-- Styles -->
@@ -29,14 +29,20 @@
   <body>
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#"><img src="assets/pictures/logo.svg" alt="logo full mobility" id="logo-header"><span>Full</span>Mobility</a>
+        <a class="logo" href="#"
+          ><img
+            src="assets/pictures/logo.svg"
+            alt="logo full mobility"
+            id="logo-header"
+          /><span>Full</span>Mobility</a
+        >
         <!-- MENU -->
         <div class="menu">
           <ul class="grid">
             <li><a class="title" href="#home">Início</a></li>
-            <li><a class="title" href="#about">Sobre</a></li>
             <li><a class="title" href="#services">Serviços</a></li>
             <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
             <li><a class="title" href="#contact">Contatos</a></li>
           </ul>
         </div>
@@ -49,53 +55,27 @@
     <!-- Home -->
     <main>
       <section class="section" id="home">
-        <div class="container grid">
-          <div class="image">
-            <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()"
-              src="assets/pictures/img2.jpeg" alt="Chobby 3000 W"
-            />
-          </div>
-          <div class="text">
-            <h2 class="title">Chobby <strong>3000W</strong><h2>
-            <p>A união de potência e estilo em um só veículo. Conforto e comodidade para o dia a dia. A Chobby 3000W vem equipada....</p>
-            <a class="button" href="https://api.whatsapp.com/send/?phone=5528999014692&text=Olá, gostaria de agendar um test drive&app_absent=0">Agende seu Test Drive</a>
-          </div>
-        </div>
+        <iframe class="video" src="https://www.youtube.com/embed/St1-0qowy9I?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+      <div class="container">
+        <div class="home-photos swiper mySwiper">
+          <div class="swiper-wrapper">
+            <a class="swiper-slide" href="https://fullmobility.com.br" target="_blank">
+              <img src="assets/pictures/K22/3-4 Guidão K22.png" alt="">
+            </a>
+            <a class="swiper-slide" href=#><img href="" src="assets/pictures/K7/3-4-K7-P1-Paralamas.png" alt=""></a>
+            <a class="swiper-slide" href=#><img href="" src="assets/pictures/K10A/3-4 P1 K10A.png" alt=""></a>
+            <a class="swiper-slide" href=#><img href="" src="assets/pictures/K10B/3-4 P1 K10B.png" alt=""></a>
+            <a class="swiper-slide" href=#><img href="" src="assets/pictures/PATINETE/3-4.png" alt=""></a>
+            <a class="swiper-slide" href=#><img href="" src="assets/pictures/PATINETE SKATE/3-4.png" alt=""></a>
+          </div> 
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+
+      </div>
       </section>
 
       <div class="divider-1"></div>
-
-      <!-- About -->
-      <section class="section" id="about">
-        <div class="container grid">
-          <div class="image">
-            <img id="img2" onmouseover="setNewImage2()" onmouseout="setOldImage2()"
-            src="assets/pictures/img4.jpeg" alt="Chobby 3000 W"
-            />
-          </div>
-          <div class="text">
-            <h2 class="title">Sobre nós</h2>
-            <p>
-              Em 2017 iniciei minha jornada em uma empresa que trabalha com uma
-              visão futurística, isso no entanto mexeu com os meu pensamentos,
-              fazendo com que eu imaginasse um mundo mais sustentável. Logo veio
-              a ideia de um meio de locomoção que não precisasse de emissões de
-              monóxido de carbono (CO), dióxido de carbono (CO2) e ozônio (O3)
-              entre outros, assim a mobilidade elétrica se tornou uma
-              possibilidade de um mundo mais limpo e uma economia aos bolsos dos
-              brasileiros, e é por isso que a Full Mobility existe. Felipe
-              Portella
-            </p>
-            <br />
-            <p></p>
-            <br />
-            <p></p>
-            <br />
-          </div>
-        </div>
-      </section>
-
-      <div class="divider-2"></div>
 
       <!-- Services -->
 
@@ -105,34 +85,30 @@
             <h2 class="title">Serviços</h2>
             <p class="subtitle">
               Com mais de 5 anos de experiência em veículos elétricos a
-              <strong>FullMobility</strong> conta com os melhores especialistas do
-              mercado.
+              <strong>FullMobility</strong> conta com os melhores especialistas
+              do mercado.
             </p>
           </header>
           <div class="bigcards cards grid">
             <div class="card">
               <i class="icon-tools"></i>
               <h3 class="title">Assistência Técnica</h3>
-              <p>
-                Equipe treinada.....
-              </p>
+              <p>Equipe treinada.....</p>
               <br />
             </div>
             <div class="card">
               <i class="icon-electric_scooter"></i>
               <h3 class="title">Loja</h3>
               <p>
-                Venda de Scooters novas.....
-                Melhores preços e condições, venha conferir....
+                Venda de Scooters novas..... Melhores preços e condições, venha
+                conferir....
               </p>
               <br />
             </div>
             <div class="card">
               <i class="icon-cart"></i>
               <h3 class="title">Peças</h3>
-              <p>
-                Completa gama de acessórios para você e seu veículo....
-              </p>
+              <p>Completa gama de acessórios para você e seu veículo....</p>
               <br />
             </div>
           </div>
@@ -196,10 +172,7 @@
                     temporibus possimus soluta in. Soluta, unde id?
                   </p>
                   <cite>
-                    <img 
-                    src="assets/pictures/foto1.jpg" 
-                    alt="Foto de Laura" 
-                    />
+                    <img src="assets/pictures/foto1.jpg" alt="Foto de Laura" />
                     Laura Pequeno
                   </cite>
                 </blockquote>
@@ -212,21 +185,52 @@
 
       <div class="divider-2"></div>
 
+            <!-- About -->
+            <section class="section" id="about">
+              <div class="container grid">
+                <div class="image" >
+                  <img 
+                    id="img2"
+                    onmouseover="setNewImage2()"
+                    onmouseout="setOldImage2()"
+                    src="assets/pictures/img4.jpeg"
+                    alt="Chobby 3000 W"
+                  />
+                </div>
+                <div class="text">
+                  <h2 class="title">Sobre nós</h2>
+                  <p>
+                    Em 2017 iniciei minha jornada em uma empresa que trabalha com uma
+                    visão futurística, isso no entanto mexeu com os meu pensamentos,
+                    fazendo com que eu imaginasse um mundo mais sustentável. Logo veio
+                    a ideia de um meio de locomoção que não precisasse de emissões de
+                    monóxido de carbono (CO), dióxido de carbono (CO2) e ozônio (O3)
+                    entre outros, assim a mobilidade elétrica se tornou uma
+                    possibilidade de um mundo mais limpo e uma economia aos bolsos dos
+                    brasileiros, e é por isso que a Full Mobility existe. Felipe
+                    Portella
+                  </p>
+                  <br />
+                  <p></p>
+                  <br />
+                  <p></p>
+                  <br />
+                </div>
+              </div>
+            </section>
+            <div class="divider-2"></div>
       <!-- Contact -->
       <section class="section" id="contact">
         <div class="container grid">
           <div class="text">
-            <h2 class="title">Entre em contato com a gente</h2>
-            <p>
-              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
-              ouvir suas críticas e sugestões.
-            </p>
+            <h2 class="title">Entre em contato conosco</h2>
+
             <a
               href="https://api.whatsapp.com/send/?phone=5528999014692&text=Oi, Gostaria de mais informações a respeito dos produtos&app_absent=0"
               class="button"
               target="_blank"
-              ><i class="icon-whatsapp"></i>Entrar em contato</a
-            >
+              ><i class="icon-whatsapp"></i
+            ></a>
           </div>
 
           <div class="links">
@@ -242,12 +246,12 @@
         </div>
       </section>
 
-      <div class="divider-1"></div>
+      <!-- <div class="divider-1"></div> -->
     </main>
     <footer class="section">
       <div class="container grid">
         <div class="brand">
-          <a class="logo logo-alt" href="#home"><i id="icon-footer" class="icon-recycle"></i>Full<span>Mobility</span></a>
+          <a class="logo logo-alt" href="#home">Full<span>Mobility</span></a>
           <p>©2022 FullMobility</p>
           <p>Todos os direitos reservados</p>
         </div>
@@ -265,7 +269,7 @@
     <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
     <!-- Swiper -->
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.js"></script>
     <!-- Scroll Review -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Java Script -->

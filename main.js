@@ -34,7 +34,39 @@ function changeHeaderWhenScroll() {
 
 //Swiper (Carrosel)
 
-const swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.mySwiper', {
+  slidesPerView: 1,
+  slidesPerGroupAuto: true,
+  slidesPerGroupSkip: 1,
+  autoplay: {
+    delay: 5000
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  },
+  keyboard: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  breakpoints: {
+    767: {
+      slidesPerView: 1,
+      setWrapperSize: true
+    },
+    1200: {
+      slidesPerView: 1,
+      setWrapperSize: true
+    },
+    1900: {
+      slidesPerView: 2,
+      setWrapperSize: true
+    }
+  }
+})
+const tSwiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination'
