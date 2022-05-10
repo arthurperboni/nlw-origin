@@ -436,6 +436,13 @@ nav.show div.icon-close{
 } */
 
 /* ABOUT */
+
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #about{
   background: var(--body-color);
 }
@@ -847,6 +854,14 @@ footer .social a:hover{
     margin-left: auto;
     margin-right: auto;
   }
+
+  #testimonials{
+    display: flex;
+    justify-content: center;
+  }
+  /* #testimonials .container-swiper{
+
+  } */
 
   /* Contact */
 
