@@ -35,26 +35,20 @@ function changeHeaderWhenScroll() {
 //Swiper (Carrosel)
 
 var swiper = new Swiper('.mySwiper', {
-  navigation: {
-    nextEl: 'swiper-button-next',
-    prevEl: 'swiper-button-prev'
-  },
+  slidesPerView: 2,
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
     clickable: true
   },
-  mousewheel: true,
   keyboard: true,
-  breakpoints: {
-    767: {
-      slidesPerView: 1,
-      setWrapperSize: true
-    }
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
   }
 })
 const tSwiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
+  slidesPerView: 2,
   pagination: {
     el: '.swiper-pagination'
   },
